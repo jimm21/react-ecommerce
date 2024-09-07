@@ -44,7 +44,7 @@ function Home() {
         <h1>Exclusive Products</h1>
       </div>
       <input
-        className={'rounded-lg border border-black w-80 p-2 mb-4 focus:outline-none text-black'}
+        className={'rounded-lg border border-black w-80 p-2 mb-4 focus:outline-none text-black bg-white'}
         type='text'
         placeholder='Search a product'
         onChange={(event) => setSearchByTitleValue(event.target.value)}
